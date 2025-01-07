@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection_Scoped_Transient", "DependencyInjection_Scoped_Transient\DependencyInjection_Scoped_Transient.csproj", "{BE39CD52-27FE-4AB2-8446-B0EF6207B000}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{1BF64A51-70F4-4712-94DB-F61392E57A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "CQRS\CQRS.csproj", "{2121EDC7-C5A9-496C-9657-5052B9940B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2121EDC7-C5A9-496C-9657-5052B9940B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2121EDC7-C5A9-496C-9657-5052B9940B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2121EDC7-C5A9-496C-9657-5052B9940B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2121EDC7-C5A9-496C-9657-5052B9940B0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4AEFDD31-F832-42BD-A813-AB85E17D30ED} = {B946DEB3-6D43-4533-A370-6ADEEBBFE8A7}
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000} = {28CB00FB-35CB-486A-930C-ECB7EF8D3204}
+		{2121EDC7-C5A9-496C-9657-5052B9940B0D} = {1BF64A51-70F4-4712-94DB-F61392E57A4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C688712-6D24-48E5-8324-E12F366ABE2A}
