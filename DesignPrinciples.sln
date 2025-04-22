@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPrinciples\DesignPatterns.csproj", "{4AEFDD31-F832-42BD-A813-AB85E17D30ED}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{B946DEB3-6D43-4533-A370-6ADEEBBFE8A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{28CB00FB-35CB-486A-930C-ECB7EF8D3204}"
@@ -31,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4AEFDD31-F832-42BD-A813-AB85E17D30ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AEFDD31-F832-42BD-A813-AB85E17D30ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AEFDD31-F832-42BD-A813-AB85E17D30ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AEFDD31-F832-42BD-A813-AB85E17D30ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,7 +54,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4AEFDD31-F832-42BD-A813-AB85E17D30ED} = {B946DEB3-6D43-4533-A370-6ADEEBBFE8A7}
 		{BE39CD52-27FE-4AB2-8446-B0EF6207B000} = {28CB00FB-35CB-486A-930C-ECB7EF8D3204}
 		{2121EDC7-C5A9-496C-9657-5052B9940B0D} = {1BF64A51-70F4-4712-94DB-F61392E57A4A}
 		{C5126530-1F28-4E1F-AFB6-6C58234FC98D} = {F51872EE-9560-4015-B838-321D08D6FFB0}
