@@ -1,0 +1,25 @@
+You’re building a system that calculates discounts for customers based on their membership level.
+
+You currently have three types of customers:
+	•	Regular
+	•	Silver
+	•	Gold
+
+Each has a different discount percentage:
+	•	Regular → 0%
+	•	Silver → 10%
+	•	Gold → 20%
+
+Your goal:
+Design a system that is open for extension (new discount types can be added easily), 
+but closed for modification (you don’t have to change existing code to add a new type).
+
+Solution:
+1. Create a strategy class to get the discount strategy
+2. Create classes that will implement the discount strategy and decide discounts depends upon the discount bracket.
+3. Create Customer class and use dependency injection to inject the discount type at runtime
+4. Use Customer Class in Main() 
+
+This way if tomorrow we need to implement a new discount type, 
+we can create a new class adn implement that discount bracket.
+Now we don't need to modify the Customer Class or Discount Interface
