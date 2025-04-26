@@ -1,0 +1,48 @@
+Interface Segregation Principle
+Clients shouldn't be forced to depend on the interfaces they don't use
+
+In simple words:
+✅ Keep your interfaces small and specific.
+❌ Don’t make a big fat interface with lots of methods that every class has to implement, even if they don’t need them.
+
+Development Scenario:
+Imagine you have an application for different types of workers in a company.
+
+You define a big interface:
+
+public interface IWorker
+{
+    void Work();
+    void Eat();
+}
+
+Now, you have two types of classes:
+
+public class HumanWorker : IWorker
+{
+    public void Work()
+    {
+        Console.WriteLine("Working hard!");
+    }
+
+    public void Eat()
+    {
+        Console.WriteLine("Eating lunch!");
+    }
+}
+
+public class RobotWorker : IWorker
+{
+    public void Work()
+    {
+        Console.WriteLine("Working tirelessly!");
+    }
+
+    public void Eat()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+⚡ Problem:
+Robots don’t eat! So in RobotWorker, we are forced to implement Eat(), even though it doesn’t make sense.
