@@ -1,0 +1,16 @@
+LSP: 
+If class B is a subclass of class A, 
+then we should be able to use B anywhere A is expected without any bad surprises (errors, unexpected behavior, etc.).
+
+    •	Subclasses must not violate the behavior promised by the parent class.
+	•	Subclasses can extend the functionality but should not remove or contradict what the parent class guarantees.
+	•	If a piece of code is written against a base type (like Document), 
+	    it should work the same when given any of its subtypes (TextDocument, EncryptedDocument, etc.).
+	
+Development Scenario:
+You’re building a Document Processing System for a software that handles different types of digital files. 
+
+The system should support the following document types:
+	•	TextDocument: Can be read and printed.
+	•	EncryptedDocument: Requires decryption before reading.
+	•	ReadOnlyDocument: Can only be read; printing is not allowed.
