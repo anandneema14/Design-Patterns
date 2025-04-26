@@ -1,0 +1,13 @@
+Decorator Pattern:
+It allows you to dynamically add new responsibilities (behavior) to an object without modifying its original code.
+It’s like wrapping an object with additional features.
+
+🎯 Real-world Analogy:
+
+Imagine you order a coffee ☕ at a coffee shop.
+	•	Basic coffee is ₹100.
+	•	If you want milk, it adds ₹20.
+	•	If you want whipped cream, it adds ₹30.
+
+Instead of creating a million classes like MilkCoffee, WhippedCreamCoffee, MilkAndWhippedCreamCoffee, etc.,
+you decorate the basic coffee with add-ons dynamically.
