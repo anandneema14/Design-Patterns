@@ -1,0 +1,33 @@
+Dependency Inversion Principle:
+High level modules shouldn't depend on low level modules, both should depends on abstraction
+Abstractions shouldn't depend on details. Details should depends on abstractions
+
+In Simple terms:
+Depend on Interfaces not on Concrete Implementations
+
+Problem Setup
+
+Imagine you’re building a Notification system. Right now, you have a NotificationManager that directly creates and sends an email.
+
+public class EmailSender
+{
+    public void SendEmail(string message)
+    {
+        Console.WriteLine($"Sending Email: {message}");
+    }
+}
+
+public class NotificationManager
+{
+    private readonly EmailSender _emailSender = new EmailSender();
+
+    public void Send(string message)
+    {
+        _emailSender.SendEmail(message);
+    }
+}
+
+What’s wrong here?
+	•	NotificationManager depends directly on the concrete class EmailSender.
+	•	If tomorrow you want to send SMS instead of email, or add Push notifications, 
+	    you’d have to modify NotificationManager — violating Open/Closed Principle too.
