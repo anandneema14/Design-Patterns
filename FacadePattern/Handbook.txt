@@ -1,0 +1,19 @@
+Facade Pattern:
+Facade Pattern provides a simplified, unified interface to a complex subsystem.
+
+In simple terms, instead of making the client deal with lots of complicated classes and APIs, 
+you give one clean entry point that internally manages all the messy details
+
+Development Scenario:
+Imagine you’re building an Order Management System 🛒.
+
+When someone places an order, you need to:
+	•	Validate stock.
+	•	Calculate discounts.
+	•	Update inventory.
+	•	Process payment.
+	•	Generate invoice.
+
+Each of these could be its own service.
+If the Controller (or API) had to manually call each of them, it would be messy and tightly coupled. ❌
+
