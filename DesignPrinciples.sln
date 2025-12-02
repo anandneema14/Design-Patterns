@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{97B54510-3998-4DD4-95A1-437C6D37A4FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSettingsDemo", "AppSettingsDemo\AppSettingsDemo.csproj", "{372C53EC-A710-4F88-B1F4-87B172CE55CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{97B54510-3998-4DD4-95A1-437C6D37A4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97B54510-3998-4DD4-95A1-437C6D37A4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97B54510-3998-4DD4-95A1-437C6D37A4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372C53EC-A710-4F88-B1F4-87B172CE55CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372C53EC-A710-4F88-B1F4-87B172CE55CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372C53EC-A710-4F88-B1F4-87B172CE55CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372C53EC-A710-4F88-B1F4-87B172CE55CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +140,7 @@ Global
 		{8F069D17-CA10-479D-BAE2-81CC4C317908} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FC2CDC69-E6DB-4C6A-99D1-68A8229CD75E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{97B54510-3998-4DD4-95A1-437C6D37A4FB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{372C53EC-A710-4F88-B1F4-87B172CE55CD} = {F51872EE-9560-4015-B838-321D08D6FFB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C688712-6D24-48E5-8324-E12F366ABE2A}
